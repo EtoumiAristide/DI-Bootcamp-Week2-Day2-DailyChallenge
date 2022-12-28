@@ -16,7 +16,5 @@ let wordBad = sentence.indexOf("bad");
 //console.log the original sentence.
 if (wordBad > wordNot) {
     sentence = sentence.replace(sentence.substring(wordNot, wordBad + 3), "good");
-    console.log(sentence);
-} else {
-    console.log(sentence);
 }
+console.log(sentence);
