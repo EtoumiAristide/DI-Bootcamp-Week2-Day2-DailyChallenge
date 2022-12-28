@@ -5,12 +5,10 @@ let sentence = "This mobile app is not even bad, it has many helpful features";
 //2- Create a variable called wordNot where it’s value is the first appearance 
 //(ie. the position) of the substring “not” (from the sentence variable).
 let wordNot = sentence.indexOf("not");
-console.log(wordNot);
 
 //3-Create a variable called wordBad where it’s value is the first appearance 
 //(ie. the position) of the substring “bad” (from the sentence variable).
 let wordBad = sentence.indexOf("bad");
-console.log(wordBad);
 
 //4-If the word “bad” comes after the word “not”, you should replace the whole “not…bad” substring with “good”, 
 //then console.log the result.
